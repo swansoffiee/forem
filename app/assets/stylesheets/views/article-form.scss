@@ -259,6 +259,10 @@
     font-weight: var(--fw-medium);
   }
 
+  &__tag-option-name {
+    text-overflow: ellipsis;
+  }
+
   &__tag-option:hover {
     // We try to avoid !important, but since the --tag-prefix color needs to be set inline, !important is required to temporarily change it
     --tag-prefix: var(--accent-brand-darker) !important;

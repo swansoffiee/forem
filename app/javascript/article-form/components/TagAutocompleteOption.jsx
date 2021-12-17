@@ -22,7 +22,9 @@ export const TagAutocompleteOption = ({
     >
       <div className="crayons-article-form__tag-option-title flex items-center">
         <span className="crayons-tag__prefix"># </span>
-        {name}
+        <span className="crayons-article-form__tag-option-name overflow-hidden">
+          {name}
+        </span>
         {badgeUrl ? (
           <img
             className="crayons-article-form__tag-option-image"
